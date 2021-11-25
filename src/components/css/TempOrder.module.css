@@ -1,0 +1,31 @@
+li {
+    list-style: decimal;
+    /* border: solid black; */
+    /* margin-left: 50%; */
+    text-align: center;
+}
+
+.tempOrder {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    /* border: solid black; */
+    /* background-color: aquamarine; */
+    /* text-align: center; */
+}
+
+.heading {
+    text-align: left;
+    /* border: solid black; */
+    margin-bottom: 0.4rem;
+    text-align: center;
+    /* border: solid black; */
+    background-color: cadetblue;
+    /* width: 220px; */
+    /* margin-top: 0.8rem; */
+    margin-top: 0.8rem;
+    font-size: 50px;
+    /* border-bottom: 1px solid red; */
+    /* max-width: 120px; */
+    /* width: 120px; */
+    /* height: 10px; */
+}

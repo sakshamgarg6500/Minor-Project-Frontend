@@ -1,0 +1,78 @@
+.navbar {
+    /* border: 2px solid black; */
+    margin-top: 1rem;
+    /* font-size: large; */
+    padding-bottom: 0.7rem;
+    /* border-bottom: 1px solid black; */
+    /* text-align: center; */
+    width: 100%;
+    background: white;
+    border-radius: 50px;
+    color: white;
+    /* border: solid black; */
+    opacity: 0.85;
+    /* FOR TRANSPARENCY */
+    z-index: 999;
+    /* SO THAT NAVBAR WILL ALWAYS REMAIN ON TOP */
+    /* font-size: 40px; */
+}
+
+.navbar_container {
+    padding-left: 1rem;
+    display: flex;
+    /* border: solid red; */
+}
+
+.navbar_container li {
+    list-style: none;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    /* border: red; */
+    font-size: 40px;
+}
+
+.navbar_container a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+    /* border: black; */
+    font-size: 30px;
+}
+
+.navbar_container a:hover {
+    color: darkred;
+    /* border: solid black; */
+    font-size: 40px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid black;
+    /* max-width: 280px; */
+    width: 150px;
+    font-size: 2rem;
+    font-weight: 160;
+    margin: 1rem auto 1rem auto;
+    /* border: solid black; */
+    /* border-radius: 20; */
+    font-size: 40px;
+}
+
+.factory {
+    /* margin-bottom: ; */
+    /* border: solid black; */
+    /* text-align: center; */
+    height: 100px;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.factory h4 {
+    display: inline;
+    margin-left: 1.5rem;
+    border: solid black;
+    font-size: 35px;
+}

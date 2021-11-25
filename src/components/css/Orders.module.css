@@ -1,0 +1,21 @@
+.orders {
+    margin-top: 1.2rem;
+    list-style: disc;
+    border: solid black;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border: solid black;
+    text-align: center;
+}
+
+li {
+    list-style: decimal;
+}
+
+.factory {
+    margin-bottom: 0.2rem;
+}
+
+.dispatch {
+    margin-top: 0.3rem;
+}

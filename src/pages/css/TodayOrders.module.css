@@ -1,0 +1,50 @@
+body {
+    /* background-color: pink; */
+    /* background-image: url(im); */
+}
+
+.navbar {
+    border: 2px solid black;
+    margin-top: 1rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid black;
+    width: 100%;
+    background: #ffffff;
+    color: #000000;
+    opacity: 0.85;
+    /* FOR TRANSPARENCY */
+    z-index: 999;
+    /* SO THAT NAVBAR WILL ALWAYS REMAIN ON TOP */
+}
+
+.navbar_container {
+    padding-left: 1rem;
+    display: flex;
+}
+
+.navbar_container li {
+    list-style: none;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+}
+
+.navbar_container a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar_container a:hover {
+    color: dimgray;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid black;
+    max-width: 280px;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 1rem auto 1rem auto;
+}
